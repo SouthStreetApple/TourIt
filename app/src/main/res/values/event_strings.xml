@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="number_of_events">1</integer>
+
+    <string name="event_1_title">Oktoberfest</string>
+    <string name="event_1_address">Cincinnati, OH</string>
+    <string name="event_1_coordinates"></string>
+    <string name="event_1_description">Cincinnati celebrates its German heritage by throwing a giant party for three days of beer, food, and dance (chicken dance!)</string>
+    <string name="event_1_time_start">September 21st</string>
+    <string name="event_1_time_end">23rd 2018</string>
+    <string name="event_1_email"></string>
+    <string name="event_1_phone"></string>
+    <drawable name="event_1_image">@drawable/oktoberfest</drawable>
+
+
+</resources>

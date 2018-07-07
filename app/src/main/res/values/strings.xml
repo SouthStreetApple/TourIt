@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TourIt</string>
+    <string name="city_name">Cincinnati</string>
+    <string name="song_name">Item Title</string>
+    <string name="song_length">Item Description~~~ABCdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="item_detail_description">This is some hint text for the description of the item we\'r looking at. Blah, Blah, Blah, Blah, Blah.</string>
+    <string name="item_detail_address">5555 Some Street, Some City, STATE 44444</string>
+</resources>

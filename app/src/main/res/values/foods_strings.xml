@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="number_of_foods">1</integer>
+
+    <string name="food_1_title">Price Hill Chili</string>
+    <string name="food_1_address">4920 Glenway Ave, Cincinnati, OH 45238</string>
+    <string name="food_1_coordinates"></string>
+    <string name="food_1_description">Price Hill Chili is a family owned and operated restaurant on the western side of Cincinnati. It is a popular and well known establishment to anyone who was raised or resides on the west side. It\'s fame and popularity has also spread well beyond the boundaries of the west side and it has become a Cincinnati legend.</string>
+    <string name="food_1_time_start"></string>
+    <string name="food_1_time_end"></string>
+    <string name="food_1_email"></string>
+    <string name="food_1_phone">(513) 471-9507</string>
+    <drawable name="food_1_image">@drawable/pricehillchili</drawable>
+
+</resources>

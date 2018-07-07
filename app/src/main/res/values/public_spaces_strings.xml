@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="number_of_public_spaces">1</integer>
+
+    <string name="public_space_1_title">Mt. Echo Park</string>
+    <string name="public_space_1_address">381 Elberon Ave, Cincinnati, OH 45205</string>
+    <string name="public_space_1_coordinates"></string>
+    <string name="public_space_1_description">This park’s 84 acres include steep wooded hillsides, hiking trails, playgrounds, picnic areas, a unique historic reservable picnic shelter and the 1928 Mt. Echo pavilion, a popular spot for dances, community events and private functions. The park\’s overlook features one of the most dramatic views of any Cincinnati Park.</string>
+    <string name="public_space_1_time_start"></string>
+    <string name="public_space_1_time_end"></string>
+    <string name="public_space_1_email"></string>
+    <string name="public_space_1_phone"></string>
+    <drawable name="public_space_1_image">@drawable/mtecho</drawable>
+
+</resources>

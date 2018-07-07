@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="number_of_attractions">2</integer>
+
+    <string name="attraction_1_title">Opening Day Parade</string>
+    <string name="attraction_1_address">1801 Race St., Cincinnati, OH</string>
+    <string name="attraction_1_coordinates"></string>
+    <string name="attraction_1_description">Cincinnati celebrates the beginning of the baseball season with a parade throughout downtown.</string>
+    <string name="attraction_1_time_start">June 13, 2004</string>
+    <string name="attraction_1_time_end"></string>
+    <string name="attraction_1_email">noReply@gmail.com</string>
+    <string name="attraction_1_phone">(555) 555-5555</string>
+    <drawable name="attraction_1_image">@drawable/cincyskyline</drawable>
+
+    <string name="attraction_2_title">Coney Island</string>
+    <string name="attraction_2_address"></string>
+    <string name="attraction_2_coordinates"></string>
+    <string name="attraction_2_description">This amusement park is the affordable option for families and friends alike.</string>
+    <string name="attraction_2_time_start"></string>
+    <string name="attraction_2_time_end"></string>
+    <string name="attraction_2_email"></string>
+    <string name="attraction_2_phone"></string>
+    <drawable name="attraction_2_image">@drawable/coneyisland</drawable>
+
+</resources>

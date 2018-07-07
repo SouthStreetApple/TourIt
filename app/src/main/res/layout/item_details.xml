@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/city_text_background_color"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_info" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/city_text_background_color"
+            android:gravity="center"
+            android:text="@string/city_name"
+            android:textColor="@color/city_text_color"
+            android:textSize="@dimen/city_text_size" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/city_text_background_color"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_info" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cincyskyline" />
+
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="@dimen/description_font_size"
+        android:gravity="center"
+        android:hint="@string/item_detail_description" />
+
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="2dp"
+        android:drawableLeft="@drawable/ic_date_range"
+        android:drawablePadding="4dp"
+        android:autoLink=""
+        android:gravity="center_vertical"
+        android:hint=""
+        android:paddingLeft="16dp" />
+
+    <TextView
+        android:id="@+id/item_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="2dp"
+        android:autoLink="map"
+        android:drawableLeft="@drawable/ic_directions"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:hint="@string/item_detail_address"
+        android:paddingLeft="16dp" />
+
+    <TextView
+        android:id="@+id/item_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="2dp"
+        android:autoLink="email"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:hint=""
+        android:paddingLeft="16dp" />
+
+    <TextView
+        android:id="@+id/item_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="2dp"
+        android:autoLink="phone"
+        android:drawableLeft="@drawable/ic_call"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:hint=""
+        android:paddingLeft="16dp" />
+
+
+</LinearLayout>

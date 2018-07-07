@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/justlogo"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:background="@color/city_text_background_color"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:background="@color/city_text_background_color"
+            android:gravity="center"
+            android:text="@string/city_name"
+            android:textColor="@color/city_text_color"
+            android:textSize="@dimen/city_text_size" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/justlogo"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:background="@color/city_text_background_color"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="center"
+        android:src="@drawable/cincyskyline" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sliding_tabs"
+        style="@style/viewPagerTitleStrip"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:tabMode="scrollable"
+        />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

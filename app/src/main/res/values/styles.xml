@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Enables us to set the text and color of the pager title strip.. -->
+    <!-- URL: https://stackoverflow.com/questions/9925491/how-can-i-set-textcolor-textsize-of-pagertitlestrip-from-code/23033285 -->
+    <style name="viewPagerTitleStrip">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+</resources>
