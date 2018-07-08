@@ -44,7 +44,7 @@ import java.util.List;
 /**
  * This will inflate the fragment that will display Attractions
  */
-public class attractionsFragment extends android.support.v4.app.Fragment{
+public class attractionsFragment extends android.support.v4.app.Fragment {
 
     ListView attractionsList;
     int numberOfAttractions;
@@ -52,8 +52,8 @@ public class attractionsFragment extends android.support.v4.app.Fragment{
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup viewgroup, Bundle savedInstanceState){
-        return inflater.inflate(R.layout.fragment_attractions, viewgroup,false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup viewgroup, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_attractions, viewgroup, false);
 
     }
 
@@ -88,7 +88,7 @@ public class attractionsFragment extends android.support.v4.app.Fragment{
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int selected_item, long l) {
                 //Here is where we will have code to open the details view that will show more information on the attraction, event, etc.
-                Toast.makeText(getActivity().getApplicationContext(),attractions.get(selected_item).itemTitle, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity().getApplicationContext(), attractions.get(selected_item).itemTitle, Toast.LENGTH_SHORT).show();
                 //This is where we will use an intent to switch to the details screen to show more item information!
                 Intent i = new Intent(getActivity().getApplicationContext(), itemDetails.class);
                 //Send data that we will need later...
@@ -100,11 +100,11 @@ public class attractionsFragment extends android.support.v4.app.Fragment{
 
     }
 
-    private void loadAttractions(){
+    private void loadAttractions() {
         /**
          * Special Thanks to Neural & BigMikeDog from the Grow with Google Scholarship Slack.
          * They were instrumental in helping me debug my array usage and getIdentifier issues.
-         * This loads the attractions into an ArrayList which is then passed to Adaptor and then utilized
+         * This loads the attractions, events, foods, or public spaces into an ArrayList which is then passed to Adaptor and then utilized
          * by a ListView to show the contents.
          */
         int x;
@@ -128,13 +128,13 @@ public class attractionsFragment extends android.support.v4.app.Fragment{
             eventAddressID = getResources().getIdentifier("attraction_" + (x) + "_address", "string", getActivity().getPackageName());
             eventCoordinatesID = getResources().getIdentifier("attraction_" + (x) + "_coordinates", "string", getActivity().getPackageName());
             eventDescriptionID = getResources().getIdentifier("attraction_" + (x) + "_description", "string", getActivity().getPackageName());
-            eventTimeStartID = getResources().getIdentifier("attraction_" + (x) + "_time_start", "string",getActivity().getPackageName());
+            eventTimeStartID = getResources().getIdentifier("attraction_" + (x) + "_time_start", "string", getActivity().getPackageName());
             eventTimeStopID = getResources().getIdentifier("attraction_" + (x) + "_time_end", "string", getActivity().getPackageName());
             eventImageID = getResources().getIdentifier("attraction_" + (x) + "_image", "drawable", getActivity().getPackageName());
             eventEmailID = getResources().getIdentifier("attraction_" + (x) + "_email", "string", getActivity().getPackageName());
             eventPhoneID = getResources().getIdentifier("attraction_" + (x) + "_phone", "string", getActivity().getPackageName());
             /**
-             * Grabs the attractions data information from the strings resource file using the above
+             * Grabs the items data information from the strings resource file using the above
              * resource IDs and ads them to the custom class i, item.
              */
             i.setItem(getString(eventTitleID), getString(eventAddressID), getString(eventCoordinatesID), getString(eventDescriptionID), getString(eventTimeStartID), getString(eventTimeStopID), getString(eventEmailID), getString(eventPhoneID), (eventImageID));

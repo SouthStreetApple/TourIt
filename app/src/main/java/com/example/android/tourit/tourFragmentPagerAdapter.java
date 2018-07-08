@@ -27,17 +27,17 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class tourFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    public tourFragmentPagerAdapter(FragmentManager fm){
+    public tourFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
     }
 
     @Override
-    public Fragment getItem(int position){
-        if (position == 0){
+    public Fragment getItem(int position) {
+        if (position == 0) {
             return new attractionsFragment();
-        } else if (position == 1){
+        } else if (position == 1) {
             return new eventsFragment();
-        } else if (position == 2){
+        } else if (position == 2) {
             return new foodFragment();
         } else {
             return new publicSpacesFragment();
@@ -45,7 +45,7 @@ public class tourFragmentPagerAdapter extends FragmentPagerAdapter {
     }
 
     @Override
-    public int getCount(){
+    public int getCount() {
         return 4;
     }
 
@@ -53,11 +53,11 @@ public class tourFragmentPagerAdapter extends FragmentPagerAdapter {
     //URL: https://stackoverflow.com/questions/14082854/adding-titles-to-viewpager#14083077
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0){
+        if (position == 0) {
             return "Attractions";
-        } else if (position == 1){
+        } else if (position == 1) {
             return "Events";
-        } else if (position == 2){
+        } else if (position == 2) {
             return "Food";
         } else {
             return "Public Spaces";

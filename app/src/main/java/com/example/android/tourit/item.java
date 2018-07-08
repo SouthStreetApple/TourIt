@@ -14,7 +14,7 @@ public class item implements Parcelable {
     String itemPhone;
     int itemImage;
 
-    public void setItem(String item_title,String item_address, String item_coordinates, String item_description, String item_time_start, String item_time_End, String item_email,String item_phone,int item_image){
+    public void setItem(String item_title, String item_address, String item_coordinates, String item_description, String item_time_start, String item_time_End, String item_email, String item_phone, int item_image) {
         itemTitle = item_title;
         itemAddress = item_address;
         itemCoordinates = item_coordinates;

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,9 +57,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:textSize="@dimen/description_font_size"
         android:gravity="center"
-        android:hint="@string/item_detail_description" />
+        android:hint="@string/item_detail_description"
+        android:textSize="@dimen/description_font_size" />
 
     <TextView
         android:id="@+id/item_time"
@@ -65,9 +70,7 @@
         android:layout_marginTop="2dp"
         android:drawableLeft="@drawable/ic_date_range"
         android:drawablePadding="4dp"
-        android:autoLink=""
         android:gravity="center_vertical"
-        android:hint=""
         android:paddingLeft="16dp" />
 
     <TextView
@@ -95,7 +98,6 @@
         android:drawableLeft="@drawable/ic_email"
         android:drawablePadding="4dp"
         android:gravity="center_vertical"
-        android:hint=""
         android:paddingLeft="16dp" />
 
     <TextView
@@ -109,8 +111,6 @@
         android:drawableLeft="@drawable/ic_call"
         android:drawablePadding="4dp"
         android:gravity="center_vertical"
-        android:hint=""
         android:paddingLeft="16dp" />
-
-
 </LinearLayout>
+</ScrollView>

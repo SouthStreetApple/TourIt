@@ -11,6 +11,6 @@
     <string name="food_1_time_end"></string>
     <string name="food_1_email"></string>
     <string name="food_1_phone">(513) 471-9507</string>
-    <drawable name="food_1_image">@drawable/pricehillchili</drawable>
+    <drawable name="food_1_image"></drawable>
 
 </resources>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Empty fields are INTENTIONAL, they show what data can be displayed to the user. If certain
+    fields like: address, time, phone, or email are blank
+    they will be automatically hidden from the end user -->
+
     <integer name="number_of_attractions">2</integer>
 
     <string name="attraction_1_title">Opening Day Parade</string>

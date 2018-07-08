@@ -87,7 +87,6 @@ public class publicSpacesFragment extends android.support.v4.app.Fragment {
         int eventEmailID;
         int eventPhoneID;
 
-
         for (x = 1; x < (numberOfPublicSpaces + 1); x++) {
             /*Create new instance of the custom class item*/
             item i = new item();

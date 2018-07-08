@@ -12,5 +12,4 @@
     <string name="event_1_phone"></string>
     <drawable name="event_1_image">@drawable/oktoberfest</drawable>
 
-
 </resources>
