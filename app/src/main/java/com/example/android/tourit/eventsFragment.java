@@ -33,7 +33,7 @@ public class eventsFragment extends android.support.v4.app.Fragment {
          */
         eventsList = view.findViewById(R.id.events_list);
         /**
-         * Allows us to show the selected song as highlighted.
+         * Allows us to show the selected item as highlighted.
          * URL: https://stackoverflow.com/questions/5925892/how-to-highlight-row-in-listview-in-android
          */
         eventsList.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
