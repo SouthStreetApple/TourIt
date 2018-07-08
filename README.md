@@ -8,7 +8,7 @@ Used **min. API 15 / target 27**
 alt="TourIt - App Demo" width="100%" height="100%" border="10" /></a>
 
 ## Screenshots
-![TourIt](https://github.com/SouthStreetApple/TourIt/blob/master/screenshot.png)
+![TourIt](https://github.com/SouthStreetApple/TourIt/blob/master/screenshot.PNG)
 
 ## Additional Features
 1. The app is extensible, by editing the strings resource files you can add more places to visit without modifying any code.
